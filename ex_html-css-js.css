@@ -1,13 +1,68 @@
 body {
-   ...........
+   width: 800px;
+   margin: 0 auto;
+   background-color:#faf3e0; 
+   font-family: Arial, sans-serif; 
+   color: #2c3e50; 
+   padding: 20px;
 }
 
 h1 {
-   ...........
+   font-size: 32px;
+   color: #0077b6; /
+   text-align: center;
+}
+
+
+h2 {
+   font-size: 24px;
+   color: #f4a261;
+}
+
+img {
+   max-width: 100%;
+   display: block;
+   margin: 0 auto;
 }
 
 form {
-   ...........
+   background-color: #ffffff;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-............
+input, select, textarea {
+   width: 100%;
+   margin: 15px 0;
+   padding: 10px;
+   border: 1px solid #eaeaea;
+   border-radius: 10px;
+}
+
+input[type="submit"], button {
+   background-color: #0077b6;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 10px;
+   text-align: center;
+   cursor: pointer;
+   width: 100%;
+   font-size: 16px;
+}
+
+input[type="submit"]:hover, button:hover {
+   background-color: #005f87;
+}
+
+
+textarea {
+   placeholder-color: #f4a261; 
+}
+
+* {
+   margin: 15px;
+   padding: 10px;
+   border-radius: 10px;
+}

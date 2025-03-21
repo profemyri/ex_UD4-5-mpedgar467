@@ -7,25 +7,25 @@ body {
    padding: 20px;
 }
 
-h1 {
+h1{
    font-size: 32px;
    color: #0077b6; /
    text-align: center;
 }
 
 
-h2 {
+h2{
    font-size: 24px;
    color: #f4a261;
 }
 
-img {
+img{
    max-width: 100%;
    display: block;
    margin: 0 auto;
 }
 
-form {
+form{
    background-color:#ffffff;
    padding:20px;
    border-radius:10px;

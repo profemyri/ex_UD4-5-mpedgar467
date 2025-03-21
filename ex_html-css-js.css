@@ -1,6 +1,6 @@
 body {
    width: 800px;
-   margin: 0 auto;
+   margin:0 auto;
    background-color:#faf3e0; 
    font-family: Arial, sans-serif; 
    color: #2c3e50; 
@@ -26,16 +26,16 @@ img {
 }
 
 form {
-   background-color: #ffffff;
-   padding: 20px;
-   border-radius: 10px;
+   background-color:#ffffff;
+   padding:20px;
+   border-radius:10px;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 input, select, textarea {
    width: 100%;
-   margin: 15px 0;
+   margin: 15px;
    padding: 10px;
-   border: 1px solid #eaeaea;
+   border: 1px#eaeaea;
    border-radius: 10px;
 }
 input[type="submit"], button {
@@ -47,7 +47,7 @@ input[type="submit"], button {
    width: 100%;
    font-size: 16px;
 }
-input[type="submit"]:hover, button:hover {
+input[type="submit"] {
    background-color: #005f87;
 }
 
